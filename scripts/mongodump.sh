@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 for dir in tmp mnt; do
   if [ ! -d "/$dir/$BACKUP_DIR" ]; then
-     mkdir /mnt/$BACKUP_DIR 
+     mkdir /$dir/$BACKUP_DIR 
   fi
 done  
 
